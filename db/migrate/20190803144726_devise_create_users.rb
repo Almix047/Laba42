@@ -1,9 +1,6 @@
 # frozen_string_literal: true
 
 # rubocop:disable all
-# :reek:FeatureEnvy
-# :reek:TooManyStatements
-# :reek:UncommunicativeVariableName
 class DeviseCreateUsers < ActiveRecord::Migration[5.2]
   def change
     create_table :users do |t|
